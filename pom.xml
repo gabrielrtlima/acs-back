@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>br.upe</groupId>
 	<artifactId>acs</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>acs</name>
 	<description>UPE System acs</description>
 	<properties>
