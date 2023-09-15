@@ -14,9 +14,9 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v3
         with:
-          distribution: 'temurim'
+          distribution: 'temurin'
           java-version: '17'
-          
+
       - name: Build project
         run: mvn clean install -DskipTests
         env:
