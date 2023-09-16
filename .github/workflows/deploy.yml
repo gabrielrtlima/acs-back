@@ -16,8 +16,8 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
-      - name: Build project
-        run: mvn clean install -DskipTests
+      - name: Build with Maven
+        run: mvn package
         env:
           DATABASE_URL: ${{  secrets.DATABASE_URL }}
           DATABASE_USER: ${{  secrets.DATABASE_USER }}
